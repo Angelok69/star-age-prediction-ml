@@ -271,7 +271,7 @@ tree.fit(X_train, y_train)
 
 # %%
 #Реальное и предсказанное
-y_pred3 = knn.predict(X_test)
+y_pred3 = tree.predict(X_test)
 p_df = pd.DataFrame({'Actual': y_test, 'Predicted': y_pred3})
 p_df
 
